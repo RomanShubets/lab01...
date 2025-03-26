@@ -31,13 +31,13 @@ int main() {
         int col = stoi(str.substr(pos2 + 1));
 
         mult(a, col);  
-        sum(summ, a);   
+        sum(summ, a);  
     }
     
     cout << "\nGeneral sum: ";
     printMoney(summ);
     cout << "Need to pay: ";
-    m_round(summ);   // округлення
+    m_round(summ);   
     printMoney(summ); 
 
     pfile.close();
