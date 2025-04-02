@@ -3,7 +3,7 @@
 
 struct Money {
     int grn;  
-    int kop; 
+    short int kop; 
 };
 
 void mult(Money &a, int col);
